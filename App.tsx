@@ -36,7 +36,8 @@ const Button = ({ label, onPress }: { label: string; onPress: () => void }) => (
 const Home = ({ navigation }: any) => (
   <ScrollView style={styles.container}>
     <Text style={styles.title}>Empowering the Nation</Text>
-    <Text>Training domestic workers and gardeners in Johannesburg.</Text>
+    <Text>Training domestic workers and gardeners in Johannesburg. Established in 2022, Empowering the Nation offers comprehensive training courses in Johannesburg. We have empowered hundreds of domestic workers and gardeners through our specialized programs.
+          Our founder, Precious Radebe, created this initiative to support community members who were never given the chance to upskill themselves or pursue formal qualifications. we believe in providing practical skills that make our students more marketable and confident in their careers.</Text>
     <Button label="Courses" onPress={() => navigation.navigate('Courses')} />
     <Button label="Calculator" onPress={() => navigation.navigate('Calculator')} />
     <Button label="Feedback" onPress={() => navigation.navigate('Feedback')} />
