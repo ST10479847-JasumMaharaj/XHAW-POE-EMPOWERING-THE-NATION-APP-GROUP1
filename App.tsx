@@ -200,4 +200,8 @@ resizeMode: 'cover',
 });
 
 
-
+/*CODE ATTRIBUTION-->
+<!--TITLE: Static Image Resources-->
+<!--AUTHOR: React Native-->
+<!--Date:27/10/2025-->
+<!--AVALIABLE: https://reactnative.dev/docs/images-->   */
